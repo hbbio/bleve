@@ -18,11 +18,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/blevesearch/bleve/geo"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/searcher"
+	"github.com/hbbio/bleve/geo"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/mapping"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/searcher"
 )
 
 type GeoDistanceQuery struct {

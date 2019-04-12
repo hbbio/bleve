@@ -17,8 +17,8 @@ package searcher
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/search"
 )
 
 func TestMatchAllSearch(t *testing.T) {

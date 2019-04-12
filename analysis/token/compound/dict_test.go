@@ -18,9 +18,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenmap"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/tokenmap"
+	"github.com/hbbio/bleve/registry"
 )
 
 func TestStopWordsFilter(t *testing.T) {

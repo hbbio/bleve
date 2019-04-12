@@ -15,9 +15,9 @@
 package keyword
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenizer/single"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/tokenizer/single"
+	"github.com/hbbio/bleve/registry"
 )
 
 const Name = "keyword"

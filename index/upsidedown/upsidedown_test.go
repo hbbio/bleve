@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	regexpTokenizer "github.com/blevesearch/bleve/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store/boltdb"
-	"github.com/blevesearch/bleve/index/store/null"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/analyzer/standard"
+	regexpTokenizer "github.com/hbbio/bleve/analysis/tokenizer/regexp"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/store/boltdb"
+	"github.com/hbbio/bleve/index/store/null"
+	"github.com/hbbio/bleve/registry"
 )
 
 var testAnalyzer = &analysis.Analyzer{

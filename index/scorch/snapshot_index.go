@@ -24,9 +24,9 @@ import (
 	"sync/atomic"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/scorch/segment"
 	"github.com/couchbase/vellum"
 	lev2 "github.com/couchbase/vellum/levenshtein2"
 )

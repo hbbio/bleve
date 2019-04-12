@@ -17,8 +17,8 @@ package searcher
 import (
 	"regexp"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/search"
 )
 
 // NewRegexpStringSearcher is similar to NewRegexpSearcher, but

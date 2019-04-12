@@ -23,16 +23,16 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/collector"
-	"github.com/blevesearch/bleve/search/facet"
-	"github.com/blevesearch/bleve/search/highlight"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/store"
+	"github.com/hbbio/bleve/index/upsidedown"
+	"github.com/hbbio/bleve/mapping"
+	"github.com/hbbio/bleve/registry"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/collector"
+	"github.com/hbbio/bleve/search/facet"
+	"github.com/hbbio/bleve/search/highlight"
 )
 
 type indexImpl struct {

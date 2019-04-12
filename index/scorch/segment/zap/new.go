@@ -22,9 +22,9 @@ import (
 	"sync"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index"
 	"github.com/couchbase/vellum"
 	"github.com/golang/snappy"
 )

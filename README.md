@@ -1,10 +1,10 @@
 # ![bleve](docs/bleve.png) bleve
 
-[![Build Status](https://travis-ci.org/blevesearch/bleve.svg?branch=master)](https://travis-ci.org/blevesearch/bleve) [![Coverage Status](https://coveralls.io/repos/github/blevesearch/bleve/badge.svg?branch=master)](https://coveralls.io/github/blevesearch/bleve?branch=master) [![GoDoc](https://godoc.org/github.com/blevesearch/bleve?status.svg)](https://godoc.org/github.com/blevesearch/bleve)
-[![Join the chat at https://gitter.im/blevesearch/bleve](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/blevesearch/bleve?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/hbbio/bleve.svg?branch=master)](https://travis-ci.org/hbbio/bleve) [![Coverage Status](https://coveralls.io/repos/github/hbbio/bleve/badge.svg?branch=master)](https://coveralls.io/github/hbbio/bleve?branch=master) [![GoDoc](https://godoc.org/github.com/hbbio/bleve?status.svg)](https://godoc.org/github.com/hbbio/bleve)
+[![Join the chat at https://gitter.im/hbbio/bleve](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hbbio/bleve?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![codebeat](https://codebeat.co/badges/38a7cbc9-9cf5-41c0-a315-0746178230f4)](https://codebeat.co/projects/github-com-blevesearch-bleve)
-[![Go Report Card](https://goreportcard.com/badge/blevesearch/bleve)](https://goreportcard.com/report/blevesearch/bleve)
-[![Sourcegraph](https://sourcegraph.com/github.com/blevesearch/bleve/-/badge.svg)](https://sourcegraph.com/github.com/blevesearch/bleve?badge)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Go Report Card](https://goreportcard.com/badge/hbbio/bleve)](https://goreportcard.com/report/hbbio/bleve)
+[![Sourcegraph](https://sourcegraph.com/github.com/hbbio/bleve/-/badge.svg)](https://sourcegraph.com/github.com/hbbio/bleve?badge) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 modern text indexing in go - [blevesearch.com](http://www.blevesearch.com/)
 
@@ -12,21 +12,21 @@ Try out bleve live by [searching the bleve website](http://www.blevesearch.com/s
 
 ## Features
 
-* Index any go data structure (including JSON)
-* Intelligent defaults backed up by powerful configuration
-* Supported field types:
-    * Text, Numeric, Date
-* Supported query types:
-    * Term, Phrase, Match, Match Phrase, Prefix
-    * Conjunction, Disjunction, Boolean
-    * Numeric Range, Date Range
-    * Simple query [syntax](http://www.blevesearch.com/docs/Query-String-Query/) for human entry
-* tf-idf Scoring
-* Search result match highlighting
-* Supports Aggregating Facets:
-    * Terms Facet
-    * Numeric Range Facet
-    * Date Range Facet
+- Index any go data structure (including JSON)
+- Intelligent defaults backed up by powerful configuration
+- Supported field types:
+  - Text, Numeric, Date
+- Supported query types:
+  - Term, Phrase, Match, Match Phrase, Prefix
+  - Conjunction, Disjunction, Boolean
+  - Numeric Range, Date Range
+  - Simple query [syntax](http://www.blevesearch.com/docs/Query-String-Query/) for human entry
+- tf-idf Scoring
+- Search result match highlighting
+- Supports Aggregating Facets:
+  - Terms Facet
+  - Numeric Range Facet
+  - Date Range Facet
 
 ## Discussion
 

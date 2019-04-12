@@ -15,10 +15,10 @@
 package de
 
 import (
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/tokenizer/unicode"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/token/lowercase"
+	"github.com/hbbio/bleve/analysis/tokenizer/unicode"
+	"github.com/hbbio/bleve/registry"
 )
 
 const AnalyzerName = "de"

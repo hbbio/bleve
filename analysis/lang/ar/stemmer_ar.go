@@ -17,8 +17,8 @@ package ar
 import (
 	"bytes"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/registry"
 )
 
 const StemmerName = "stemmer_ar"

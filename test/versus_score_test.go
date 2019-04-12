@@ -20,12 +20,12 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index/scorch"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
+	"github.com/hbbio/bleve"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index/scorch"
+	"github.com/hbbio/bleve/index/upsidedown"
+	"github.com/hbbio/bleve/mapping"
+	"github.com/hbbio/bleve/search"
 )
 
 func TestDisjunctionSearchScoreIndexWithCompositeFields(t *testing.T) {

@@ -17,9 +17,9 @@ package whitespace
 import (
 	"unicode"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/tokenizer/character"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/tokenizer/character"
+	"github.com/hbbio/bleve/registry"
 )
 
 const Name = "whitespace"

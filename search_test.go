@@ -24,22 +24,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/analyzer/custom"
-	"github.com/blevesearch/bleve/analysis/analyzer/keyword"
-	"github.com/blevesearch/bleve/analysis/analyzer/standard"
-	"github.com/blevesearch/bleve/analysis/token/length"
-	"github.com/blevesearch/bleve/analysis/token/lowercase"
-	"github.com/blevesearch/bleve/analysis/token/shingle"
-	"github.com/blevesearch/bleve/analysis/tokenizer/single"
-	"github.com/blevesearch/bleve/analysis/tokenizer/whitespace"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index/scorch"
-	"github.com/blevesearch/bleve/index/upsidedown"
-	"github.com/blevesearch/bleve/mapping"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight/highlighter/html"
-	"github.com/blevesearch/bleve/search/query"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/analyzer/custom"
+	"github.com/hbbio/bleve/analysis/analyzer/keyword"
+	"github.com/hbbio/bleve/analysis/analyzer/standard"
+	"github.com/hbbio/bleve/analysis/token/length"
+	"github.com/hbbio/bleve/analysis/token/lowercase"
+	"github.com/hbbio/bleve/analysis/token/shingle"
+	"github.com/hbbio/bleve/analysis/tokenizer/single"
+	"github.com/hbbio/bleve/analysis/tokenizer/whitespace"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index/scorch"
+	"github.com/hbbio/bleve/index/upsidedown"
+	"github.com/hbbio/bleve/mapping"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/highlight/highlighter/html"
+	"github.com/hbbio/bleve/search/query"
 )
 
 func TestSearchResultString(t *testing.T) {
@@ -432,7 +432,7 @@ func TestMemoryNeededForSearchResult(t *testing.T) {
 	}
 }
 
-// https://github.com/blevesearch/bleve/issues/954
+// https://github.com/hbbio/bleve/issues/954
 func TestNestedBooleanSearchers(t *testing.T) {
 	// create an index with a custom analyzer
 	idxMapping := NewIndexMapping()

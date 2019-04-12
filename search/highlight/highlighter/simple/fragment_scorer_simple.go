@@ -15,8 +15,8 @@
 package simple
 
 import (
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/highlight"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/highlight"
 )
 
 // FragmentScorer will score fragments by how many

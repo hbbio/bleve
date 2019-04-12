@@ -18,10 +18,10 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/scorer"
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/scorer"
+	"github.com/hbbio/bleve/size"
 )
 
 var reflectStaticSizeBooleanSearcher int

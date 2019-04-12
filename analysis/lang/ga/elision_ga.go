@@ -17,9 +17,9 @@ package ga
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/token/elision"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/token/elision"
+	"github.com/hbbio/bleve/registry"
 )
 
 const ElisionName = "elision_ga"

@@ -17,8 +17,8 @@ package searcher
 import (
 	"fmt"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/search"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/search"
 )
 
 var MaxFuzziness = 2

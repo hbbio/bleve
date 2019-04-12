@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/blevesearch/bleve/analysis"
+	"github.com/hbbio/bleve/analysis"
 )
 
 func TestSnowballStemmer(t *testing.T) {

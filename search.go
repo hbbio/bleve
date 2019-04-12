@@ -20,14 +20,14 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/analysis/datetime/optional"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/registry"
-	"github.com/blevesearch/bleve/search"
-	"github.com/blevesearch/bleve/search/collector"
-	"github.com/blevesearch/bleve/search/query"
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/analysis/datetime/optional"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/registry"
+	"github.com/hbbio/bleve/search"
+	"github.com/hbbio/bleve/search/collector"
+	"github.com/hbbio/bleve/search/query"
+	"github.com/hbbio/bleve/size"
 )
 
 var reflectStaticSizeSearchResult int

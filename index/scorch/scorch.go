@@ -24,13 +24,13 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/document"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
-	"github.com/blevesearch/bleve/index/scorch/segment/zap"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/document"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/index/scorch/segment/zap"
+	"github.com/hbbio/bleve/index/store"
+	"github.com/hbbio/bleve/registry"
 	bolt "github.com/etcd-io/bbolt"
 )
 

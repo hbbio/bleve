@@ -20,9 +20,9 @@ import (
 	"sync/atomic"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/size"
 )
 
 var TermSeparator byte = 0xff

@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch/segment"
-	"github.com/blevesearch/bleve/index/scorch/segment/zap"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/index/scorch/segment/zap"
 	bolt "github.com/etcd-io/bbolt"
 )
 

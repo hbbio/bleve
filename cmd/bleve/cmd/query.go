@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/blevesearch/bleve"
-	"github.com/blevesearch/bleve/search/query"
+	"github.com/hbbio/bleve"
+	"github.com/hbbio/bleve/search/query"
 	"github.com/spf13/cobra"
 )
 

@@ -28,8 +28,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/index/store"
+	"github.com/hbbio/bleve/registry"
 	bolt "github.com/etcd-io/bbolt"
 )
 

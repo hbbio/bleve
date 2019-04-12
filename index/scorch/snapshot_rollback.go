@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/blevesearch/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/index/scorch/segment"
 	bolt "github.com/etcd-io/bbolt"
 )
 

@@ -17,8 +17,8 @@ package en
 import (
 	"unicode/utf8"
 
-	"github.com/blevesearch/bleve/analysis"
-	"github.com/blevesearch/bleve/registry"
+	"github.com/hbbio/bleve/analysis"
+	"github.com/hbbio/bleve/registry"
 )
 
 // PossessiveName is the name PossessiveFilter is registered as

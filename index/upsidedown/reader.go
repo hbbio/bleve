@@ -20,9 +20,9 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/store"
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/store"
+	"github.com/hbbio/bleve/size"
 )
 
 var reflectStaticSizeUpsideDownCouchTermFieldReader int

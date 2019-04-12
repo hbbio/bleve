@@ -21,8 +21,8 @@ import (
 	"reflect"
 
 	"github.com/RoaringBitmap/roaring"
-	"github.com/blevesearch/bleve/index/scorch/segment"
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/index/scorch/segment"
+	"github.com/hbbio/bleve/size"
 )
 
 var reflectStaticSizePostingsList int

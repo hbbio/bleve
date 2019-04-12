@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/blevesearch/bleve/size"
+	"github.com/hbbio/bleve/size"
 )
 
 var reflectStaticSizeDocument int

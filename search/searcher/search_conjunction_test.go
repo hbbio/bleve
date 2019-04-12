@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/blevesearch/bleve/index"
-	"github.com/blevesearch/bleve/index/scorch"
-	"github.com/blevesearch/bleve/search"
+	"github.com/hbbio/bleve/index"
+	"github.com/hbbio/bleve/index/scorch"
+	"github.com/hbbio/bleve/search"
 )
 
 func TestConjunctionSearch(t *testing.T) {
