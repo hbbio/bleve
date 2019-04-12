@@ -17,3 +17,5 @@ vendor/**
 /search/query/y.output
 *.test
 tags
+testidx/index_meta.json
+testidx/store

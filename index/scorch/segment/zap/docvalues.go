@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"sort"
 
+	"github.com/golang/snappy"
 	"github.com/hbbio/bleve/index"
 	"github.com/hbbio/bleve/index/scorch/segment"
 	"github.com/hbbio/bleve/size"
-	"github.com/golang/snappy"
 )
 
 var reflectStaticSizedocValueReader int

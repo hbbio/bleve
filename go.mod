@@ -5,7 +5,6 @@ go 1.12
 require (
 	github.com/RoaringBitmap/roaring v0.0.0-20171211164817-01d244c43a7e
 	github.com/Smerity/govarint v0.0.0-20150407073650-7265e41f48f1 // indirect
-	github.com/hbbio/bleve v0.7.0
 	github.com/blevesearch/go-porterstemmer v1.0.2
 	github.com/blevesearch/segment v0.0.0-20160105220820-db70c57796cc
 	github.com/blevesearch/snowballstem v0.0.0-20180110192139-26b06a2c243d
